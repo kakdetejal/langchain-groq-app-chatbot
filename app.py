@@ -1,12 +1,12 @@
 import streamlit as st
 from app.chains import get_chain
 
-# Initialize chain once (important for performance)
+# Initialize chain once 
 chain = get_chain()
 
-st.set_page_config(page_title="Groq AI Chatbot", page_icon="🤖")
+st.set_page_config(page_title="Groq AI Chatbot", page_icon=":robot:")
 
-st.title("🤖 Groq Tech AI Assistant (Alex)")
+st.title(":robot: Groq Tech AI Assistant (Alex)")
 st.write("Ask any tech-related questions. Type 'exit' to stop session.")
 
 # -----------------------------
